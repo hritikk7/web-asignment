@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.beer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.beer {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.beer-image img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.beer-details {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.beer-name,
+.beer-price,
+.beer-rating,
+.beer-reviews {
+  margin: 5px 0;
+}
